@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height:100%;
+    width:100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    .body-properties{
+        height:100%;
+        width:100%;
+        header{
+            height: 100%;
+            width:100%;
+            position:relative;
+            &::after{
+                content:'';
+                height: 100%;
+                width:100%;
+                position: absolute;
+                top:0%;
+                left:0%;
+                background-color: rgba(0,0,0,0.7);
+                z-index: 10;
+            }
+            
+            #navigation-white{
+                height:10%;
+                width:100%;
+                position: fixed;
+                top:0%;
+                left:0%;
+                z-index: 100;
+                background-color: none;
+                border-bottom: 0.5px #737373 solid;
+                display:flex;
+                justify-content: center;
+                &.white{
+                    background-color: #fff;
+                }
+                .container-nav{
+                display:flex;
+                justify-content: space-between;
+                width:70%;
+                    .logo{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        a{
+                        text-decoration: none;
+                        font-size: 30px;
+                        color:#fff;
+                        text-transform: uppercase;
+                        }
+                    }
+                    .links{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        a{
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        color:#737373;
+                        padding:0px 15px 0px 15px;
+                        &:hover{
+                            color:#fff;
+                        }
+                        }
+
+                    }
+                }
+            }}}}

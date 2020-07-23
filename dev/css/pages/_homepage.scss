@@ -161,6 +161,8 @@ html{
                 height:800px;
                 width:100%;
                 .after-effet-hover{
+                    text-decoration: none;
+                    
                     &:hover .wrapper-colonne::before{
                         opacity:1;
                         left:4%;
@@ -205,6 +207,7 @@ html{
                         
                     }
                     .txt-conteneur{
+                        
                         h2{
                             font-size:20px;
                             text-transform: uppercase;
@@ -353,7 +356,9 @@ html{
                 justify-content: center;
                 height:800px;
                 width:100%;
+                
                 .wrapper-colonne-news{
+                    text-decoration: none;
                     .image-conteneur-news{
                         img{
                             max-width: 100%;
@@ -364,10 +369,18 @@ html{
                     }
                     .txt-conteneur-news{
                         h2{
-                            font-size:20px
+                            font-size:20px;
+                            color:#000;
+                            text-transform: uppercase;
+                            font-weight: normal;
                         }
                         p{
-                            font-size: 20px;
+                            font-size: 16px;
+                            color:#ccc;
+                            width:90%;
+                            span{
+                                color:#37cfa2;
+                            }
                         }
                     }
                 }

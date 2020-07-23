@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body class="body-home">
-    <header>
+    <header id="home">
         <nav id="navigation-white">
             <div class="container-nav">
                 <div class="logo">
                     <a  href="#">Warehouse/JOUR2/New repo</a>
                 </div>
                 <div class="links">
-                    <a href="#">Home</a>
-                    <a href="properties.html">Properties</a>
-                    <a href="#">Agents</a>
-                    <a href="#">News</a>
-                    <a href="#">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#house">Properties</a>
+                    <a href="#agents">Agents</a>
+                    <a href="#news">News</a>
+                    <a href="#sectioncontact">Contact</a>
                 </div>
             </div>
         </nav>
@@ -46,11 +46,11 @@
             <div class="swiper-pagination"></div>
         </div>
     </header>
-    <section class="section-houses">
+    <section id="house"class="section-houses">
         <div class="container">
             <h1>Our outstanding houses</h1>
             <div class="wrapper-section">
-                <div class="after-effet-hover">
+                <a href="properties.html" class="after-effet-hover">
                 <div class="wrapper-colonne">
                     <div class="image-conteneur">
                         <img src="images/property_1.jpg" alt="image appartement cosy">
@@ -61,8 +61,8 @@
                         <p>$20,000,000 </p>
                     </div>
                 </div>
-                </div>
-                <div class="after-effet-hover">
+                </a>
+                <a href="properties.html" class="after-effet-hover">
                 <div class="wrapper-colonne">
                     <div class="image-conteneur">
                         <img src="images/property_1.jpg" alt="image appartement cosy">
@@ -73,8 +73,8 @@
                         <p>$20,000,000 </p>
                     </div>
                 </div>
-                </div>
-                <div class="after-effet-hover">
+                </a>
+                <a href="properties.html" class="after-effet-hover">
                 <div class="wrapper-colonne">
                     <div class="image-conteneur">
                         <img src="images/property_1.jpg" alt="image appartement cosy">
@@ -85,11 +85,11 @@
                         <p>$20,000,000 </p>
                     </div>
                 </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
-    <section class="section-agents">
+    <section id="agents"class="section-agents">
         <div class="container-agents">
             <div class="container-agents-txt-intro">
                 <h1>Real Estate Agents</h1>
@@ -152,43 +152,43 @@
         </div>
             
     </section>
-    <section class="section-news">
+    <section id="news"class="section-news">
         <div class="container-news">
             <h1>News & Events</h1>
             <div class="wrapper-news">
-                <div class="wrapper-colonne-news">
+                <a href="single.html" class="wrapper-colonne-news">
                     <div class="image-conteneur-news">
                         <img src="images/img_1.jpg" alt="image appartement cosy">
                     </div>
                     <div class="txt-conteneur-news">
                         <h2>News Title 1</h2>
-                        <p>Alison Holmes . Jan 18, 2019 . Outstanding properties</p>
+                        <p>Alison Holmes . Jan 18, 2019 . <span>Outstanding properties</span></p>
                     </div>
-                </div>
-                <div class="wrapper-colonne-news">
+                </a>
+                <a href="single.html" class="wrapper-colonne-news">
                     <div class="image-conteneur-news">
                         <img src="images/img_1.jpg" alt="image appartement cosy">
                     </div>
                     <div class="txt-conteneur-news">
                         <h2>News Title 1</h2>
-                        <p>Alison Holmes . Jan 18, 2019 . Outstanding properties</p>
+                        <p>Alison Holmes . Jan 18, 2019 . <span>Outstanding properties</span> </p>
                     </div>
-                </div>
-                <div class="wrapper-colonne-news">
+                </a>
+                <a href="single.html" class="wrapper-colonne-news">
                     <div class="image-conteneur-news">
                         <img src="images/img_1.jpg" alt="image appartement cosy">
                     </div>
                     <div class="txt-conteneur-news">
                         <h2>News Title 1</h2>
-                        <p>Alison Holmes . Jan 18, 2019 . Outstanding properties</p>
+                        <p>Alison Holmes . Jan 18, 2019 . <span>Outstanding properties</span></p>
                         
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
     </section>
-    <section class="contact">
+    <section id="sectioncontact"class="contact">
         <div class="wrapper-contact">
             <h1>Contact us</h1>
             <div class="container-contact">
@@ -263,7 +263,7 @@
             </div>
         </div>
     </footer>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>

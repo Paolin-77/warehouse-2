@@ -12,8 +12,40 @@ html{
            height: 50%;
             width:100%;
             position:relative;
+            background: url(../../images/hero_1.jpg) no-repeat center/cover;
             // background-image: url(../images/hero_2.jpg) no-repeat center/cover;
-            background-color: palevioletred;
+            // background-color: palevioletred;
+            &:after{
+                content:'';
+                height:100%;
+                width:100%;
+                position: absolute;
+                top:0%;
+                left:0%;
+                background-color: rgba(0,0,0,0.4);
+                z-index:10;
+            }
+            h1{
+                position: absolute;
+                top:40%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                color:#fff;
+                z-index: 500;
+                text-transform: uppercase;
+                font-weight: normal;
+                width:30%;
+                text-align: center;
+                font-size: 40px;
+            }
+            p{
+                position: absolute;
+                top:60%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                color: #fff;
+                z-index: 500;
+            }
             #navigation-white{
                 height:10%;
                 width:100%;

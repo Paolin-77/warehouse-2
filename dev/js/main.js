@@ -31,3 +31,16 @@ var mySwiper = new Swiper('.swiper-container', {
     }, 'slow');
     return false;
   });
+
+  var monBurgerClick= document.querySelector(".burger");
+monBurgerClick.addEventListener ('click',function(){
+    var burgerNav= document.querySelector(".navigation-burger");
+    burgerNav.classList.toggle('visible');
+    var crossOne= document.querySelector('.ligne-1-b');
+    crossOne.classList.toggle('cross');
+    var crossTwo= document.querySelector('.ligne-2-b');
+    crossTwo.classList.toggle('cross');
+    var crossThree= document.querySelector('.ligne-3-b');
+    crossThree.classList.toggle('cross');
+
+});
